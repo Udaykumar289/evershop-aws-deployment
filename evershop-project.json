@@ -1,0 +1,17 @@
+{
+  "name": "evershop_project",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "evershop install",
+    "build": "npx evershop build",
+    "start": "npx evershop start"
+  },
+  "dependencies": {
+    "@evershop/evershop": "^2.3.0"
+  }
+}
